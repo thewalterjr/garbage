@@ -1,0 +1,13 @@
+Domain-Driven Design (DDD) - Não  se trata diretamente focada em arquitetura ou uma tecnologia, o DDD acaba sendo uma filosofia que prega o desenvolvimento de software simulando bem parecido os apectos de negocios com foco na entrega de valor.  
+
+Bounded context -> são uma maneira de delimitar fronteiras lógicas entre diferentes subdomínios de um sistema, cada um com suas próprias regras, terminologias e modelos conceituais
+
+ex: Existem 2 setores, o de venda e o de logistica, esses dois Bounded Contexts, "Vendas" (monta um pedido) e "Logística" (envia o pedido), têm suas próprias regras de negócio e modelos de domínio, mas estão integrados entre si por meio de conceitos como Pedido que são compartilhados entre os contextos 
+
+
+Aggregate (Root) -> 
+
+ex: Você está em uma loja virtual fazendo compras e decide adicionar o(s) pedido(s) no carrinho, neste cenário, Pedido é o Aggregate Root, pois é a entidade principal que encapsula e controla o acesso aos itens associados a ele. Todas as operações relacionadas ao pedido, como adicionar itens e calcular o total, são realizadas por meio do Aggregate Root Pedido. Outro exemplo, usuario quer pegar livros emprestados, o Usuario vai ser o aggregate root
+
+
+obs: tenho que comecar a escrever em markdown
