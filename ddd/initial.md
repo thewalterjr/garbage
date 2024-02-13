@@ -15,6 +15,11 @@ Para isso, precisamos nos basear nos **3 pilares**.
 
 **Observação:** acredito que as os pilares de visão estratégica e tática estão interligadas.
 
+### Complexidades da visão tática
+  - **Complexidade de negocio** - Calculo de juros. Definir as tarifas, sistema de gerenciamente de preço.
+  - **Complexidade ocasional/técnica** - é a nossa complexidade, ou seja, framework, linguagem de programacao, banco de dados, resto ou grpc.
+
+
 ## Como essa filosofia do DDD é aplicada no mundo real?
 Precisamos entender a **linguagem** da empresa, fazer um software é mudar como as pessoas trabalham, dito isso, levantamento de requisito, descobrir o problema principal a se suprir, formas de falar, agir e reagir.
 
@@ -25,7 +30,7 @@ Uma das soluções é transformar o dominio em subdominios e a partir disso apli
 
 
 ### Uma pausa rápida para explicar o que é Bounded context (contexto limitado)
-São uma maneira de delimitar fronteiras lógicas entre diferentes subdomínios de um sistema, cada um com suas próprias regras, terminologias e modelos conceituais
+É uma maneira de delimitar fronteiras lógicas entre diferentes subdomínios de um sistema, cada um com suas próprias regras, terminologias e modelos conceituais
   
 **Exemplo:** Existem dois setores fundamentais: **Vendas** e **Logística**. Esses dois Bounded Contexts operam com suas próprias regras de negócio e modelos de domínio. **Vendas** é responsável por montar um pedido, enquanto **Logística** cuida do envio do pedido. Apesar de suas diferenças, eles estão integrados entre si através de conceitos compartilhados, como o **Pedido**, permitindo uma operação coesa.
 
@@ -46,6 +51,7 @@ Delimitar contextos não é simples; há sempre uma zona cinza sem respostas cla
 
 ## Dominio anemico x Dominio rico
 **Domínio Anêmico** - é caracterizado por modelos com pouca ou nenhuma lógica de negócios, atuando principalmente como transportadores de dados (Uso apenas de GetSet). 
+
 **Domínio Rico** - incorpora a lógica de negócios diretamente nos modelos, promovendo um design orientado ao comportamento que facilita a manutenção e a evolução do sistema. 
 
 A escolha entre um domínio anêmico e um rico impacta diretamente na expressividade e na capacidade de encapsulamento da lógica de negócios da aplicação.
