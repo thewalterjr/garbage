@@ -13,7 +13,7 @@ Para isso, precisamos nos basear nos **3 pilares**.
  -  **Visão tática** - é nesse momento que atacamos o coração do software, levantando as complexidades do negocio e as complexidades técnicas.
  - **Visão estratégica** - foca na definição de contextos limitados e subdomínios, organizando o sistema para alinhar com os objetivos do negócio e facilitar a integração e comunicação entre equipes.
 
-**Observação:** acredito que as os pilares de visão estratégica e tática estão interligadas.
+**Observação:** acredito que os pilares de visão estratégica e tática estão interligados.
 
 ### Complexidades da visão tática
   - **Complexidade de negocio** - Calculo de juros. Definir as tarifas, sistema de gerenciamente de preço.
